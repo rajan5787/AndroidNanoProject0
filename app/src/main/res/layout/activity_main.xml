@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rajan.androidnanoproject0.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colortoolbar">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/textview_title"
+                android:text="My Nanodegree Apps"/>
+
+            <LinearLayout
+                android:layout_width="@dimen/text_width"
+                android:layout_height="@dimen/text_height"
+                android:layout_marginTop="25dp"
+                style="@style/button_bourder">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btn_project_1"
+                    android:text="Spotify Streamer"
+                    style="@style/Button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/text_width"
+                android:layout_height="@dimen/text_height"
+                style="@style/button_bourder">
+                <Button
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="@dimen/text_height"
+                    android:id="@+id/btn_project_2"
+                    android:text="Scores App"
+                    style="@style/Button"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/text_width"
+                android:layout_height="@dimen/text_height"
+                style="@style/button_bourder">
+                <Button
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="@dimen/text_height"
+                    android:id="@+id/btn_project_3"
+                     android:text="Library App"
+                    style="@style/Button"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/text_width"
+                android:layout_height="@dimen/text_height"
+                style="@style/button_bourder">
+                <Button
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="@dimen/text_height"
+                    android:id="@+id/btn_project_4"
+                    android:text="Build It Bigger"
+                    style="@style/Button"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/text_width"
+                android:layout_height="@dimen/text_height"
+                style="@style/button_bourder">
+                <Button
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="@dimen/text_height"
+                    android:id="@+id/btn_project_5"
+                    android:text="XYZ Reader"
+                    style="@style/Button"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/text_width"
+                android:layout_height="@dimen/text_height"
+                style="@style/button_bourder">
+                <Button
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="@dimen/text_height"
+                    android:id="@+id/btn_project_6"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorBackgroundAlt"
+                    android:textColor="@drawable/button_text"
+                    android:textSize="@dimen/text_size"
+                    android:text="Capstone : My OWN App" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
